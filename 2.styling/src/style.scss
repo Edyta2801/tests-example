@@ -10,11 +10,21 @@ a {
   color: $green;
   font-weight: bold;
 }
+a .logo {
+  color: $green;
+  text-decoration: underline;
+  border: none;
+}
 
 .main-nav {
   a {
     color: $orange;
-    text-decoration: none;
+    text-decoration: underline;
     border-bottom: 3px dotted #000;
+  }
+  .logo {
+    color: $green;
+    text-decoration: underline;
+    border: none;
   }
 }

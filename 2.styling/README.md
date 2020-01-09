@@ -22,8 +22,7 @@ Niestety, masz dostęp wyłącznie do pliku SCSS. Spróbuj zmieniać kod opieraj
 
 W celu uruchomienia testów musisz najpierw zainstalować niezbędne pakiety za pomocą komendy `npm install`. 
 
-Następnie masz dwie opcje: 
-
+Następnie masz dwie opcje
 1. Aby uruchomić jednorazowe wykonanie testów, skorzystaj z komendy `npm test`. 
 2. Jeśli wolisz, aby testy były wykonywane automatycznie przy każdej zmianie w kodzie, wykonaj komendę `npm run watch:test`. 
 

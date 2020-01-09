@@ -1,30 +1,23 @@
-$blue: #00aaaa;
-$green: #00aa00;
-$orange: #ff7700;
+$blue: #00AAAA;
+$green: #00AA00;
+$orange: #FF7700;
 
 a {
   color: $blue;
+  &.logo {
+    color: $blue;
+  }
 }
 
 .logo {
   color: $green;
   font-weight: bold;
 }
-a .logo {
-  color: $green;
-  text-decoration: underline;
-  border: none;
-}
 
 .main-nav {
-  a {
+  a:not('.logo') {
     color: $orange;
-    text-decoration: underline;
+    text-decoration: none;
     border-bottom: 3px dotted #000;
-  }
-  .logo {
-    color: $green;
-    text-decoration: underline;
-    border: none;
   }
 }
